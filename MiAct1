@@ -1,0 +1,36 @@
+jshell> void FirstItem(int x, int y){
+   ...> System.out.printf("%d + %d = %d", x, y, x+y).println();
+   ...> }
+|  modified method FirstItem(int,int)
+
+jshell> FirstItem(992,8)
+992 + 8 = 1000
+
+jshell> void SecondItem(int x, int y){
+   ...> System.out.printf("%d (modulo) %d = %d", x, y, x%y).println();
+   ...> }
+|  modified method SecondItem(int,int)
+
+jshell> SecondItem(60,2)
+60 (modulo) 2 = 0
+
+jshell> void ThirdItem(int x, int y){
+   ...> System.out.printf("%d - %d = %d", x, y, x-y).println();
+   ...> }
+|  created method ThirdItem(int,int)
+
+jshell> ThirdItem(22,22)
+22 - 22 = 0
+
+jshell> SecondItem(21,2)
+21 (modulo) 2 = 1
+
+jshell> void FourthItem(int x, int y){
+   ...> System.out.printf("%d / %d = %d", x, y, x/y).println();
+   ...> }
+|  created method FourthItem(int,int)
+
+jshell> FourthItem(20,5)
+20 / 5 = 4
+
+jshell>
